@@ -2,17 +2,67 @@
 <html lang="en">
 <head>
   
+<!-- Header Ad Container -->
+<div class="header-ad">
 
-<script>
-  atOptions = {
-    'key' : '4b2eb95d46d4e5d91e20995005923e0c',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-  };
-</script>
-<script src="https://surelydecoratedfundraiser.com/4b2eb95d46d4e5d91e20995005923e0c/invoke.js"></script>
+    <!-- Desktop Ad (728x90) -->
+    <div class="desktop-ad">
+        <script>
+            atOptions = {
+                'key' : '4b2eb95d46d4e5d91e20995005923e0c',
+                'format' : 'iframe',
+                'height' : 90,
+                'width' : 728,
+                'params' : {}
+            };
+        </script>
+        <script src="https://surelydecoratedfundraiser.com/4b2eb95d46d4e5d91e20995005923e0c/invoke.js"></script>
+    </div>
+
+    <!-- Mobile Ad (320x50) -->
+    <div class="mobile-ad">
+        <script>
+            atOptions = {
+                'key' : '760140ebcaa75d9b3af048ff075e12d6',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+            };
+        </script>
+        <script src="https://surelydecoratedfundraiser.com/760140ebcaa75d9b3af048ff075e12d6/invoke.js"></script>
+    </div>
+
+</div>
+
+<style>
+/* Center Ad */
+.header-ad{
+    width:100%;
+    text-align:center;
+    margin:15px auto;
+}
+
+/* Default */
+.desktop-ad{
+    display:block;
+}
+
+.mobile-ad{
+    display:none;
+}
+
+/* Mobile */
+@media (max-width:768px){
+    .desktop-ad{
+        display:none;
+    }
+
+    .mobile-ad{
+        display:block;
+    }
+}
+</style>
 
 
 
