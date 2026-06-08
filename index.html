@@ -1,8 +1,52 @@
 <p>&nbsp;</p><!DOCTYPE html>
 <html lang="en">
 <head>
+
+
+<div class="header">
+  <h1>VIDEO GALLERY</h1>
+</div>
+
+<div class="header-ad">
+  <!-- Replace with your ad provider's approved embed code -->
+  <div class="desktop-ad">
+    Desktop Ad (728x90)
+  </div>
+
+  <div class="mobile-ad">
+    Mobile Ad (320x50)
+  </div>
+</div>
+
+
+
+
+
   
- 
+  
+ .header-ad{
+  width:100%;
+  text-align:center;
+  margin:15px auto 25px;
+}
+
+.desktop-ad{
+  display:block;
+}
+
+.mobile-ad{
+  display:none;
+}
+
+@media (max-width:768px){
+  .desktop-ad{
+    display:none;
+  }
+
+  .mobile-ad{
+    display:block;
+  }
+}
   
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
